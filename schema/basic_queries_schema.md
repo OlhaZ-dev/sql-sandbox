@@ -1,23 +1,30 @@
-# Database Schema
+## Sample schema and data for Basic Queries
 
-## Table: celebs
+### Table schema
+
 | name           | type    |
 |----------------|---------|
 | id             | INTEGER |
 | name           | TEXT    |
 | age            | INTEGER |
+| birthday       | DATE    |
+| email          | TEXT    |
 | twitter_handle | TEXT    |
-
-**Rows:** 1
 
 ---
 
-## Table: friends
-| name     | type    |
-|----------|---------|
-| id       | INTEGER |
-| name     | TEXT    |
-| birthday | DATE    |
-| email    |         |
+### Sample rows
 
-**Rows:** 2
+#### Table 1
+| id | name          | birthday   |
+|----|---------------|------------|
+| 1  | Ororo Munroe  | 1940-05-30 |
+
+---
+
+#### Table 2
+| id | name | birthday   | email            |
+|----|------|------------|------------------|
+| 2  | Joe  | 1946-11-21 | joe@example.com  |
+| 3  | Nico | 1988-01-02 | nico@example.com |
+
